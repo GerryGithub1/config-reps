@@ -6,4 +6,4 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/testdb?useSSL=true
     username: root
     password: 123
-label: quans shi keng
+label: testUpdate
