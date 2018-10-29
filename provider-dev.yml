@@ -1,4 +1,4 @@
-label:  Release1111
+label:  Release
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
