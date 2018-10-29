@@ -1,9 +1,12 @@
+label:  Release-Update1111
 spring:
-  application:
-    name: provider
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/testdb?useSSL=true
+    url:  jdbc:mysql:///testdb?useSSL=true
     username: root
     password: 123
-label: testUpdate
+  rabbitmq:
+    port: 5672
+    host: 192.168.3.201
+    username: test
+    password: test
